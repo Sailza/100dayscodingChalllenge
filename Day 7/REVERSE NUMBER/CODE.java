@@ -52,6 +52,5 @@ ENTER THE VALUE
 Original Number: 234
 Reversed Number: 432
   
-OUTPUT 3 -(if the given number does not contain any value)
-  it will display NULL
+
 
