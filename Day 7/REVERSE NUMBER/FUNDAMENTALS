@@ -1,0 +1,95 @@
+                                                       JAVA WHILE LOOP 
+
+
+Java while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. 
+The while loop can be thought of as a repeating if statement. While loop in Java comes into use when we need to repeatedly execute a block of statements. 
+The while loop is considered as a repeating if statement. 
+If the number of iterations is not fixed, it is recommended to use the while loop.
+
+
+Syntax:
+while (test_expression)
+{
+   // statements
+ 
+  update_expression;
+}
+
+
+
+THE VARIOUS PART OF WHILE LOOP ARE :- 
+
+1. Test Expression: In this expression, we have to test the condition.
+If the condition evaluates to true then we will execute the body of the loop and go to update expression. Otherwise, we will exit from the while loop. 
+
+2. 2. Update Expression: After executing the loop body, this expression increments/decrements the loop variable by some value.
+
+
+
+WHILE LOOP EXAMPLE 
+
+class whileLoopDemo {
+	public static void main(String args[])
+	{
+		int i = 1;
+		while (i < 6) {
+			System.out.println("Hello World");
+
+			i++;
+		}
+	}
+}
+
+OUTPUT 
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+
+  
+  
+  
+  
+                                                     JAVA IF-ELSE STATEMENT 
+
+Decision Making in Java helps to write decision-driven statements and execute a particular set of code based on certain conditions.
+The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t.
+But what if we want to do something else if the condition is false. 
+Here comes the else statement.
+We can use the else statement with the if statement to execute a block of code when the condition is false.
+
+
+SYNTAX :
+if (condition)
+{
+    // Executes this block if
+    // condition is true
+}
+else
+{
+    // Executes this block if
+    // condition is false
+}
+
+
+
+EXAMPLE OF IF-ELSE 
+
+class IfElse {
+	public static void main(String args[])
+	{
+		int i = 20;
+
+		if (i < 15)
+			System.out.println("i is smaller than 15");
+		else
+			System.out.println("i is greater than 15");
+
+		System.out.println("Outside if-else block");
+	}
+}
+
+OUTPUT 
+i is greater than 15
+Outside if-else block
