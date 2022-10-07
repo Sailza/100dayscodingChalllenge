@@ -6,6 +6,10 @@ PROBLEM TO SOLVE :- FIND THE AREA OF CIRCLE
 
 SOLUTION : THIS PROBLEM IS VERY SIMPLE , I USED CONSTRUCTOR CONCEPT IN JAVA LANGUAGE TO SOLVE THIS PROBLEM 
 
+LOGIC :- 
+	to find area of cirle we use the formula = [ area= (22*r*r)/7;]
+
+
 CODE
 
 import java.util.Scanner;
