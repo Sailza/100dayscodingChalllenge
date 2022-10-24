@@ -1,0 +1,74 @@
+
+PROBLEM : TO PRINT THE HOLLOW TRIANGLE PATTERN 
+
+SOLUTION OF THIS PROBLEM : I solved this problem by using for loop in java by taking i and j loop 
+i is for no of rows 
+j is for no of columns 
+
+CODE 
+import java.util.Scanner;
+
+public class Pattern1 {
+
+	public static void main(String[] args) {		int i, j, k = 0; 
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter number");
+
+                int n=sc.nextInt();
+
+        for (i = 1; i <= n; i++)  
+
+        { 
+
+            
+
+            for (j = i; j < n; j++)  
+
+                System.out.print(" "); 
+
+            while (k != (2 * i - 1)) { 
+
+                if (k == 0 || k == 2 * i - 2) 
+
+                    System.out.print("*"); 
+
+                else
+
+                    System.out.print(" "); 
+
+                k++; 
+
+                ; 
+
+            } 
+
+            k = 0; 
+
+            System.out.println();  
+
+        } 
+
+        // print last row 
+
+        for (i = 0; i < 2 * n - 1; i++)  
+
+            System.out.print("*"); 
+
+        
+
+    } 
+
+}
+
+
+OUTPUT 
+*
+* *
+*  * 
+*   *
+*****
+
+
+
