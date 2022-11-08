@@ -1,0 +1,26 @@
+1)Linear search is a sequential searching algorithm where we start from one end and check every element of the list until the desired element is found. 
+It is the simplest searching algorithm.
+
+2)How Linear Search Works?
+
+The following steps are followed to search for an element k = 1 in the list below.
+Initial array
+Array to be searched for
+Start from the first element, compare k with each element x.
+Element not found
+Compare with each element
+If x == k, return the index.
+Element found
+Else, return not found.
+
+
+3)Linear Search Algorithm
+
+LinearSearch(array, key)
+  for each item in the array
+    if item == value
+      return its index
+      
+4)Linear Search Complexities
+Time Complexity: O(n)
+Space Complexity: O(1)
