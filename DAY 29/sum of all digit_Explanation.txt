@@ -1,0 +1,28 @@
+PROBLEM - DISPLAY THE SUM OF ALL DIGITS  DIGITS 
+SOLUTION- THIS PROBLEM IS VERY SIMPLE , WE CAN SOLVE THIS PROBLEM BY USING WHILE LOOP IN JAVA LANGUAGE 
+
+SAMPLE OUTPUT 
+
+First iteration
+
+674 % 10 = 4
+
+Sum = 0 + 4 = 4
+
+674 / 10 = 67
+
+Second iteration
+
+67 % 10 = 7
+
+Sum = 4 + 7 = 11
+
+67 / 10 = 6
+Third iteration
+
+6 % 10 = 6
+
+Sum = 11 + 6 = 17
+
+6 / 10 = 0
+Now the number (N) has become 0. So, we will not process it further. Hence, we get 17 as the sum of digits of the number 674.
