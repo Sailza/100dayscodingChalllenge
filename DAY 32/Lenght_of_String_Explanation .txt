@@ -1,0 +1,18 @@
+PROBLEM : TO FIND THE LENGHT OF GIVEN STRING BY USER IN JAVA LANGUAGE 
+SOLUTION 
+WE CAN SOLVE THIS PROBLEM BY USING STRING LENGHT METHOD IN JAVA LANGUAGE 
+
+The length() method returns the length of a specified string.
+
+POSSIBLE TEST CASES ARE 
+TEST CASE 1 
+When we Pass string as an Input 
+then it will retiun the lenght of string 
+
+TEST CASE 2
+when we pass string and digit combination or digits as an Input 
+it will print not found 
+
+TEST CAASE 3
+when string is null 
+return lenght 0
