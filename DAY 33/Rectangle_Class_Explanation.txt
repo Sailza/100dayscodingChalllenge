@@ -1,0 +1,21 @@
+PROBLEM : TO FIND THE AREA AND PERIMETER OF RECTANGLE BY CREATING THE CLASS 
+
+SOLUTION 
+we have declared two classes: 
+Rectangle and Rectdemo . 
+The Rectangle class contains two fields length and breadth of type int that correspond to the length and breadth of the rectangle respectively. 
+In addition, the Rectangle class also contains two methods named setData () and area ().
+The method setData () initializes length and breadth fields of an object and area ()calculates the area of the rectangle. 
+It does not have a main () method and therefore cannot be run. It is merely a definition used to define and create Rectangle objects. 
+So we define another class named Rectdemo  that contains the main () method from where the program execution actually begins.
+
+FOR AREA OF RECTANGLE 
+we create a area method and calculate  area as lenght * breadth
+
+FOR PERIMETER OF RECTANGLE 
+we create a perimeter method and perform 2*(lenght+breadth)
+
+In the main (), the statement
+Rectangle rect = new Rectangle();
+reates a Rectangle object in memory and assign it to the reference variable firstRect
+after that we call area and perimeter method 
