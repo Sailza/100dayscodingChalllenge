@@ -1,0 +1,15 @@
+PROBLEM: To show Method Overloading in java language 
+
+SOLUTION EXPLANATION :
+
+In Java, two or more methods may have the same name if they differ in parameters (different number of parameters, different types of parameters, or both).
+These methods are called overloaded methods and this feature is called method overloading.
+
+Two or more methods can have the same name inside the same class if they accept different arguments.
+This feature is known as method overloading.
+Method overloading is achieved by either:
+
+1)changing the number of arguments.
+2)or changing the data type of arguments.
+It is not method overloading if we only change the return type of methods.
+There must be differences in the number of parameters.
