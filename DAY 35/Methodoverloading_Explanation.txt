@@ -1,0 +1,15 @@
+PROBLEM : We Perform Method overloading by changing the type of an argument 
+
+SOLUTION 
+In Java, two or more methods may have the same name if they differ in parameters (different number of parameters, different types of parameters, or both).
+These methods are called overloaded methods and this feature is called method overloading.
+
+Two or more methods can have the same name inside the same class if they accept different arguments.
+This feature is known as method overloading.
+
+we have created two methods that differs in data type.
+The first add method receives two integer arguments and second add method receives two double arguments.
+
+We can give different primitive datatype to differentiate between the methods 
+
+like int, float, double etc
