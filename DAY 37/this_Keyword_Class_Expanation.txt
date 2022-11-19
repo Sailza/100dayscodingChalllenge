@@ -1,0 +1,12 @@
+This keyword in java Explanation and Usuage 
+
+This keyword in java 
+There can be a lot of usage of Java this keyword. 
+In Java, this is a reference variable that refers to the current object.
+
+USUAGE OF THIS KEYWORD 
+1-If there is ambiguity between the instance variables and parameters, this keyword resolves the problem of ambiguity.
+2-By using this keyword to distinguish local variable and instance variable.
+3-You may invoke the method of the current class by using the this keyword. 
+If we don't use the this keyword, compiler automatically adds this keyword while invoking the method
+
