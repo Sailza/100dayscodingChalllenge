@@ -1,0 +1,18 @@
+PROBLEM : To convert the lower data type into higher data type in java language 
+
+SOLUTION 
+Type casting
+Convert a value from one data type to another data type is known as type casting.
+When we have to convert from lower data type to higher data type we use Widening Type Casting
+
+Converting a lower data type into a higher one is called widening type casting.
+It is also known as implicit conversion or casting down. It is done automatically.
+It is safe because there is no chance to lose data. 
+
+It takes place when:
+1)Both data types must be compatible with each other.
+2)The target type must be larger than the source type.
+byte -> short -> char -> int -> long -> float -> double  
+
+the conversion between numeric data type to char or Boolean is not done automatically.
+Also, the char and Boolean data types are not compatible with each other
