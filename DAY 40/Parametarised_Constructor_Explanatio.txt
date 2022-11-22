@@ -1,0 +1,11 @@
+PROBLEM : To Show the concept of parametarised constructor in java language 
+
+SOLUTION :
+ A constructor is called Parameterized Constructor when it accepts a specific number of parameters. 
+ To initialize data members of a class with distinct values.
+ 
+ LOGIC : 
+ In our program we create a class called Student and Pass two values in Parametarised constructor 
+ int id and string name 
+ In the main of the class we  create a object of class and pass values according to our program
+ And then call the display method to get the Output 
