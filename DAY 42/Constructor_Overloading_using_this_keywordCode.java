@@ -1,6 +1,8 @@
 PROBLEM : To show constructor overloading in java using this keyword 
 
 SOLUTION 
+However, we can use this keyword inside the constructor, which can be used to invoke the other constructor of the same class.
+  
 CODE 
 public class Student {  
 int id,passoutYear;  
