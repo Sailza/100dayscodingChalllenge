@@ -1,0 +1,16 @@
+PROBLEM  - TO SHOW THE WORKING FEATURE OF GETTER AND SETTER IN JAVA 
+
+SOLUTION  
+Getter and setter methods in Java are widely used to access and manipulate the values of class fields. Usually,
+class fields are decorated with a private access specifier.
+Thus, to access them, public access specifiers are used with the getter and setter methods.
+
+- The getter method returns the value of the attribute.
+- The setter method takes a parameter and assigns it to the attribute.
+
+Getters and setters are used to protect your data, particularly when creating classes.
+For each instance variable, a getter method returns its value while a setter method sets or updates its value.
+Given this, getters and setters are also known as accessors and mutators, respectively
+
+IN OUR CODE WE CREATE A EMPLOYEE CLASS AND TAKE EMPLOYEE ID, NAME, DESIGNATION, COMPANY AS GETTER AND SET THE VALUES OF THESE BY SETTER FUNCTION 
+
